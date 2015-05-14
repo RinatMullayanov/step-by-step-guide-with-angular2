@@ -16,6 +16,7 @@
     ],
     "files": [
         "./main.ts",
+        "./show-properties.ts",
         "./typings/angular2/angular2.d.ts",
         "./typings/tsd.d.ts"
     ]

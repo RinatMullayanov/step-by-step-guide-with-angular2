@@ -1,0 +1,7 @@
+!.gitkeep
+.idea/
+node_modules/
+bower_components/
+*.js
+*.js.map
+*.log

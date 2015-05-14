@@ -15,6 +15,7 @@
         "!./node_modules/**/*.ts"
     ],
     "files": [
+        "./FriendsService.ts",
         "./main.ts",
         "./show-properties.ts",
         "./typings/angular2/angular2.d.ts",

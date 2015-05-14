@@ -8,7 +8,7 @@ import {Component, View, bootstrap, For} from 'angular2/angular2';
   templateUrl: './display.html',
   directives: [For]
 })
-class DisplayComponent {
+export class DisplayComponent {
   myName: string;
   names: string[];
 

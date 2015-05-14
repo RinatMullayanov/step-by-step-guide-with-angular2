@@ -11,6 +11,7 @@ if (typeof __metadata !== "function") __metadata = function (k, v) {
 };
 /// <reference path="typings/angular2/angular2.d.ts" />
 var angular2_1 = require('angular2/angular2');
+var show_properties_1 = require('./show-properties');
 var AppComponent = (function () {
     function AppComponent() {
     }
@@ -19,7 +20,10 @@ var AppComponent = (function () {
             selector: 'my-app'
         }),
         angular2_1.View({
-            template: '<h1>My first Angular 2 App</h1>'
+            templateUrl: './layout.html',
+            directives: [
+                show_properties_1.DisplayComponent
+            ]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

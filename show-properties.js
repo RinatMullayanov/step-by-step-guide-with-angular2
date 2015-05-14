@@ -28,4 +28,5 @@ var DisplayComponent = (function () {
     ], DisplayComponent);
     return DisplayComponent;
 })();
+exports.DisplayComponent = DisplayComponent;
 //# sourceMappingURL=show-properties.js.map

@@ -9,7 +9,6 @@
         "removeComments": true,
         "noLib": false,
         "emitDecoratorMetadata": true
-        }
     },
     "filesGlob": [
         "./**/*.ts",

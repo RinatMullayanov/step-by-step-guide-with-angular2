@@ -1,5 +1,5 @@
 /// <reference path="./typings/angular2/angular2.d.ts"/>
-import {Component, View, bootstrap, For} from 'angular2/angular2';
+import {Component, View, bootstrap, For, If} from 'angular2/angular2';
 import {FriendsService} from './FriendsService';
 
 @Component({
@@ -8,7 +8,10 @@ import {FriendsService} from './FriendsService';
 })
 @View({
   templateUrl: './display.html',
-  directives: [For]
+  directives: [
+    For,
+    If
+  ]
 })
 export class DisplayComponent {
   myName: string;

@@ -2,6 +2,7 @@
  <p>Friends:</p>
  <ul>
    <li *for="#name of names">
-     {{ name }} 
+     {{ name }}
    </li>
  </ul>
+ <p *if="names.length > 3">You have many friends!</p>

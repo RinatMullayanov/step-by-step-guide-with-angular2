@@ -2,6 +2,7 @@
 import {Component, View, bootstrap} from 'angular2/angular2';
 // sample import another user component thanks to http://stackoverflow.com/questions/29121678/angular-2-component-inside-main-component
 import {DisplayComponent} from './show-properties';
+import {TodoListComponent} from './todo';
 
 //The @Component annotation defines the HTML tag for the component by specifying the component's CSS selector
 @Component({
@@ -12,7 +13,8 @@ import {DisplayComponent} from './show-properties';
 @View({
   templateUrl: './layout.html',
   directives: [
-    DisplayComponent // some user component
+    DisplayComponent, // some user component
+    TodoListComponent // another user component
   ]
 })
 class AppComponent {

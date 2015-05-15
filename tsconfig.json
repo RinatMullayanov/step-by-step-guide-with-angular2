@@ -18,6 +18,7 @@
         "./FriendsService.ts",
         "./main.ts",
         "./show-properties.ts",
+        "./todo.ts",
         "./typings/angular2/angular2.d.ts",
         "./typings/tsd.d.ts"
     ]

@@ -1,11 +1,11 @@
-/// <reference path="./typings/angular2/angular2.d.ts"/>
+/// <reference path="../../typings/angular2/angular2.d.ts"/>
 import {Component, View, For} from 'angular2/angular2';
 
 @Component({
   selector: 'todo-list'
 })
 @View ({
-  templateUrl: './todo.html',
+  templateUrl: 'features/todo/todo.html',
   directives: [
     For
   ]

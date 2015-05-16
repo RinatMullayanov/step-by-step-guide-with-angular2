@@ -15,10 +15,10 @@
         "!./node_modules/**/*.ts"
     ],
     "files": [
-        "./FriendsService.ts",
-        "./main.ts",
-        "./show-properties.ts",
-        "./todo.ts",
+        "./features/app/FriendsService.ts",
+        "./features/app/main.ts",
+        "./features/display/display.ts",
+        "./features/todo/todo.ts",
         "./typings/angular2/angular2.d.ts",
         "./typings/tsd.d.ts"
     ]

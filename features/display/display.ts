@@ -1,13 +1,13 @@
-/// <reference path="./typings/angular2/angular2.d.ts"/>
+/// <reference path="../../typings/angular2/angular2.d.ts"/>
 import {Component, View, bootstrap, For, If} from 'angular2/angular2';
-import {FriendsService} from './FriendsService';
+import {FriendsService} from '../app/FriendsService';
 
 @Component({
   selector: 'display',
   injectables: [FriendsService]
 })
 @View({
-  templateUrl: './display.html',
+  templateUrl: 'features/display/display.html',
   directives: [
     For,
     If
